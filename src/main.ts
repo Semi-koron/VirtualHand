@@ -109,6 +109,3 @@ engine.runRenderLoop(() => {
 window.addEventListener("resize", function () {
   engine.resize();
 });
-function then(arg0: (stream: unknown) => void) {
-  throw new Error("Function not implemented.");
-}
